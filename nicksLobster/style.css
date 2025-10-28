@@ -41,7 +41,8 @@ section nav ul
     list-style: none;
 }
 
-section nav ul li{ 
+section nav ul li
+{ 
     display: inline-block;
     margin: 0 15px;
 }
@@ -61,24 +62,28 @@ section nav ul li a:hover
 }
 
 /*Banner*/
-.heroImg {
+.heroImg 
+{
     width: 100%;
     height: 100vh; 
     overflow: hidden;
 }
 
-.heroImg img {
+.heroImg img 
+{
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.myMain {
+.myMain 
+{
     position: relative;
 }
 
-.heroText {
+.heroText 
+{
     position: absolute;
     top: 40%;
     left: 5%;
@@ -88,14 +93,16 @@ section nav ul li a:hover
     max-width: 55%;
 }
 
-.heroText h1 {
+.heroText h1 
+{
     margin: 0;
     font-size: clamp(30px, 5vw, 90px);
     line-height: 1;
     
 }
 
-.orderNow {
+.orderNow 
+{
     display: inline-block;
     background: rgb(129, 28, 28);
     color: white;
@@ -105,7 +112,8 @@ section nav ul li a:hover
     cursor: pointer;
 }
 
-.orderNow a {
+.orderNow a 
+{
     text-decoration: none;
     color: inherit;
     font-size: 30px;
@@ -138,18 +146,41 @@ section nav ul li a:hover
 .footerHeader2 { text-align: center; }
 .footerHeader3 { text-align: center; }
 
-.footer h2 {
+.footer h2 
+{
     margin-bottom: 8px;
     font-size: 22px;
 }
 
-.footer p, .footer a {
+.footer p, .footer a 
+{
     color: #ddd;
     text-decoration: none;
-    line-height: 1.6;
+}
+.footer > div 
+{
+    flex: 1 1 0;
 }
 
-@media (max-width: 800px) {
+.footerPicture 
+{
+    flex: 0 0 160px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerPicture img 
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 160px;
+    border-radius: 6px;
+}
+
+@media (max-width: 800px) 
+{
     .footer 
     {
         flex-direction: column;

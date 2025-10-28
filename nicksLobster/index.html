@@ -8,22 +8,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <!-- reference to css -->
         <link rel="stylesheet" href="style.css"/>
+        <!-- reference to icons -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"rel="stylesheet"/>
+        <!-- reference to javascript-->
+         <script src = "script.js"></script>
     </head>
     <body>
-        <!--Main Section-->
+        <!--Header-->
         <section id="Front"> 
             <nav>
                 <div class="myLogo"> 
-                    <img src="images/icon.png">
+                    <a href="menu.html">
+                        <img src="images/icon.png">
+                    </a>
                 </div>
                 <ul> 
                     <li><a href="index.html">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="cart.html">Cart
+                        <i class="ri-restaurant-line"></i>
+                        <span class="cartItemCount"></span>
+                    </a></li>
                 </ul>
             </nav>
+        <!--Home Page Section-->    
             <div class="myMain">
             <div class="heroImg"> 
                 <img src="images/hero.jpg">
@@ -39,6 +49,9 @@
         <!--Footer-->
     <div class="footerContainer"> 
         <div class="footer"> 
+            <div class="footerPicture">
+                <img src="images/footerPic.png">
+            </div>
             <div class="footerHeader1">
                 <h2>Resturant Hours</h2>
                 <p>
