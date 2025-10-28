@@ -1,5 +1,6 @@
 :root 
-{ --nav-height-fallback: 120px; 
+{ 
+  --nav-height-fallback: 120px; 
 }
 
 .about-section 
